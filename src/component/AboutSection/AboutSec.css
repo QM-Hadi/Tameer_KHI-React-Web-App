@@ -1,0 +1,13 @@
+/* For custom scrollbar */
+.aboutsec p::-webkit-scrollbar {
+  width: 6px;
+}
+
+.aboutsec p::-webkit-scrollbar-thumb {
+  background-color: #93c5fd;
+  border-radius: 10px;
+}
+
+.aboutsec p::-webkit-scrollbar-track {
+  background: #e0f2fe;
+}

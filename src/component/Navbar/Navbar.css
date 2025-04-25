@@ -1,0 +1,76 @@
+/* Base styles */
+.navbar_Con {
+    background: linear-gradient(135deg, #FF6B6B, #FFC857);
+
+}
+  
+  /* Navbar Links */
+  .navbar_Links {
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar_Links:hover {
+    color: #FFC857;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Navbar Button */
+  .Navbar_Btn {
+    background-color: #FF6B6B;
+    border-radius: 25px;
+    padding: 8px 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .Navbar_Btn:hover {
+    background-color: #FFC857;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Mobile Menu */
+  .md\\:hidden {
+    display: block;
+  }
+  
+  .md\\:hidden .navbar_Links {
+    text-align: center;
+  }
+  
+  .bg-blue-500 {
+    background-color: #1E40AF;
+  }
+  
+  .bg-blue-500.bg-opacity-90 {
+    background-color: rgba(30, 64, 175, 0.9);
+  }
+  
+  /* Hamburger menu transition */
+  button {
+    transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Adding animations for mobile menu appearance */
+  .md\\:hidden {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .md\\:hidden .space-y-4 {
+    display: none;
+  }
+  
+  .md\\:hidden.active .space-y-4 {
+    display: block;
+  }
+  

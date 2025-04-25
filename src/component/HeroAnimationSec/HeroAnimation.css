@@ -1,0 +1,8 @@
+@keyframes scrollRow {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scrollRow {
+  animation: scrollRow 25s linear infinite;
+}

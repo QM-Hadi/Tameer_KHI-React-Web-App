@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import './AnimationCon.css';
+// import './AnimationCon.css';
 import 'aos/dist/aos.css';
-import Image from '../Images/Image_2.jpeg'; // background image
-import Image_1 from '../Images/Karachi_Img01.jpg';
-import Image_2 from '../Images/Karachi_Img02.jpg';
-import Image_3 from '../Images/Karachi_Img03.jpg';
-import Image_4 from '../Images/Karachi_Img04.jpg';
-import Image_5 from '../Images/Karachi_Img05.jpg';
-import Image_6 from '../Images/Karachi_Img06.jpg';
+import Image from '../component/Images/Image_2.jpeg'; // background image
+import Image_1 from '../component/Images/Karachi_Img01.jpg';
+import Image_2 from '../component/Images/Karachi_Img02.jpg';
+import Image_3 from '../component/Images/Karachi_Img03.jpg';
+import Image_4 from '../component/Images/Karachi_Img04.jpg';
+import Image_5 from '../component/Images/Karachi_Img05.jpg';
+import Image_6 from '../component/Images/Karachi_Img06.jpg';
 
 const AnimationCon = () => {
     useEffect(() => {
@@ -27,8 +27,8 @@ const AnimationCon = () => {
 
             {/* Overlay Content */}
             <div className="relative z-10 px-6 py-14">
-                <h1 className="text-5xl text-center mb-16 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600" data-aos="fade-down">
-                    Our Work!
+                <h1 className="text-5xl text-center mb-16 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 text-purple-600" data-aos="fade-down">
+                    Our Completed Work!
                 </h1>
 
                 {/* Responsive Grid */}
@@ -46,11 +46,6 @@ const AnimationCon = () => {
                             />
                         </div>
                     ))}
-                </div>
-                <div className='flex items-center justify-center'>
-                    <button className="mt-10 bg-blue-600 text-white rounded-full px-6 py-3 shadow-md hover:bg-blue-700 hover:scale-105 transition transform duration-300">
-                        More Works
-                    </button>
                 </div>
             </div>
         </div>

@@ -1,6 +1,13 @@
 .navbar_Heading{
-    color:rgb(139, 184, 39);
+    /* font-family :Poppins ; */
 }
 .Navbar_Icon{
     color:rgb(139, 184, 39);
+}
+
+.spanPara{
+    font-size :18px;
+}
+.first_Navbar{
+        margin:0px 10px;
 }

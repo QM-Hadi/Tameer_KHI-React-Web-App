@@ -1,0 +1,69 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Image height ko aur adjust kiya gaya */
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Image ko crop karna, taake best view mile */
+    filter: brightness(60%); /* Image thodi dark karke text ko clear banaya */
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px; /* Padding add kiya for better text spacing */
+  }
+  
+  .hero-text h1 {
+    font-size: 24px; /* Font size ko mobile ke liye adjust kiya */
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 14px; /* Smaller font for subtitle */
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-container {
+      height: 250px; /* Mobile ke liye aur chhota height rakha gaya */
+    }
+  
+    .hero-image {
+      object-position: center; /* Image ko mobile pe center me dikhaya */
+    }
+  
+    .hero-text h1 {
+      font-size: 20px; /* Mobile ke liye font size aur chhota kiya */
+    }
+  
+    .hero-text p {
+      font-size: 12px; /* Mobile ke liye aur chhota subtitle rakha gaya */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-container {
+      height: 220px; /* Mobile me image ko aur chhota kiya */
+    }
+  
+    .hero-text h1 {
+      font-size: 16px; /* Mobile pe chhota font */
+    }
+  
+    .hero-text p {
+      font-size: 10px; /* Subtitle ka font size bhi mobile ke liye adjust kiya */
+    }
+  }
+  

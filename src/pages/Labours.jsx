@@ -3,13 +3,13 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 // Labour Images
-import Labour01 from '../Images/Zafar ALi Malla_01.jpg';
-import Labour02 from '../Images/Mansoor ALi  Meerbhur_02.jpg';
-import Labour03 from '../Images/Waseem Akram Malla_03.jpg';
-import Labour04 from '../Images/Aftab Ali Malla_04.jpg';
-import Labour05 from '../Images/Asad Ali_05.jpg';
-import Labour06 from '../Images/Ghulam Sarwar_06.jpg';
-import Labour07 from '../Images/Meer Ali_07.jpg';
+import Labour01 from '../component/Images/Zafar ALi Malla_01.jpg';
+import Labour02 from '../component/Images/Mansoor ALi  Meerbhur_02.jpg';
+import Labour03 from '../component/Images/Waseem Akram Malla_03.jpg';
+import Labour04 from '../component/Images/Aftab Ali Malla_04.jpg';
+import Labour05 from '../component/Images/Asad Ali_05.jpg';
+import Labour06 from '../component/Images/Ghulam Sarwar_06.jpg';
+import Labour07 from '../component/Images/Meer Ali_07.jpg';
 
 const AnimationCon = () => {
     useEffect(() => {

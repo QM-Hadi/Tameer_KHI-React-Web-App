@@ -4,7 +4,7 @@ import HeroImg from '../Images/Image_2.jpeg';
 
 const SecondSection = () => {
   return (
-    <div className="mt-10 flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-10 bg-gradient-to-r from-blue-50 to-blue-100">
+    <div className=" flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-10 bg-gradient-to-r from-blue-50 to-blue-100">
 
       {/* Left Side Text */}
       <div className="text-center md:text-left mt-8 md:mt-0 max-w-xl">

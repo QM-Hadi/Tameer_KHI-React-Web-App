@@ -1,12 +1,38 @@
-# React + Vite
+# Tameerkhi.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tameerkhi.com** is a modern, responsive personal portfolio website built with React and Vite. It showcases professional projects, skills, and services with a sleek UI and fast performance.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Responsive design for desktop, tablet, and mobile
+- Fast build and hot module replacement with Vite
+- Clean, maintainable React codebase
+- SEO-friendly structure and metadata
+- Interactive UI with smooth animations
+- Easy to customize and extend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- CSS (Tailwind CSS or your preferred styling)
+- ESLint and Prettier for code quality
+
+---
+
+## 📥 Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js (v16+) and npm installed.
+
+### Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/tameerkhi.com.git
+   cd tameerkhi.com
